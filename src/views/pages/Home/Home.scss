@@ -1,0 +1,6 @@
+@import "../../../theme/variables";
+
+.container {
+	color: black;
+    animation: popout $timing $easing;
+}
