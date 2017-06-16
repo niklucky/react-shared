@@ -3,18 +3,22 @@
   vertical-align: top;
   min-width: 150px;
 }
+
 .lg {
   @extend .container;
   width: 50%
 }
+
 .md {
   @extend .container;
   width: 33%
 }
+
 .sm {
   @extend .container;
   width: 20%
 }
+
 .xs {
   @extend .container;
   width: 12.5%
@@ -65,12 +69,14 @@
   border-radius: 50%;
   overflow: hidden;
 }
+
 .coverTitle {
   color: white;
   z-index: 1;
   margin-top: 10px;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 }
+
 .title {
   font-weight: 300;
   margin-bottom: 10px;

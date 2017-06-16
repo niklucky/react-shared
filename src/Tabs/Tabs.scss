@@ -1,7 +1,6 @@
-@import '../../../theme/variables';
+@import "../variables";
 
-.container {
-}
+.container {}
 
 .tab {
   display: none;
@@ -27,10 +26,12 @@
   font-style: italic;
   transform: skewX($skewDeg);
   border-bottom: 2px solid $colorRed;
+
   &:hover {
     color: $colorRed;
 
   }
+
   &:before{
     content: '';
     pointer-events: none;
@@ -46,6 +47,7 @@
     display:block;
     }
   }
+
   &:after{
     content: '';
     pointer-events: none;
@@ -62,6 +64,7 @@
     }
   }
 }
+
 .tabHeaderActive {
   @extend .tabHeader;
   cursor: default;
@@ -72,9 +75,8 @@
   border-bottom: 2px solid white;
   position: relative;
   z-index: 5;
-    &:hover {
+
+  &:hover {
     color: $colorBlue;
-    
   }
-  
 }
